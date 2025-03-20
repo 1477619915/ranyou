@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
   <diagram name="第 1 页" id="lYBZlZaVF7YbcNjMDHWU">
-    <mxGraphModel>
+    <mxGraphModel dx="559" dy="315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gvC0qiRIvuQe19JPgbjm-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179.5" y="120" width="435" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gvC0qiRIvuQe19JPgbjm-2" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;b&gt;Pattern code: &lt;/b&gt;EB_SHOULD&lt;div&gt;&lt;b&gt;Description:&lt;/b&gt;&amp;nbsp;sentence using the modals &quot;should&quot; or &quot;shall&quot; with no preceding&lt;/div&gt;&lt;div&gt;predicates that use negative auxiliary verbs&lt;/div&gt;&lt;div&gt;&lt;b&gt;Rule: &lt;/b&gt;([subject]) should/shall (not) [complement]&lt;/div&gt;&lt;div&gt;&lt;b&gt;Example: &lt;/b&gt;[Apache] &lt;b&gt;should&lt;/b&gt; [make an attempt to print the date in the language&lt;/div&gt;&lt;div&gt;requested by the client] (from Http 40431)&lt;/div&gt;&lt;/blockquote&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="500" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
