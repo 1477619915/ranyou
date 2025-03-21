@@ -12,12 +12,6 @@
         <mxCell id="RG4vm5GpfKZge0y0vIT--8" value="" style="line;strokeWidth=2;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;strokeColor=light-dark(#fa0000, #ededed);aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="196" y="1362" width="1215" height="9.72" as="geometry" />
         </mxCell>
-        <mxCell id="RG4vm5GpfKZge0y0vIT--9" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#fa0000, #ededed);strokeWidth=2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1390" y="872" as="sourcePoint" />
-            <mxPoint x="1390" y="850" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="RG4vm5GpfKZge0y0vIT--10" value="" style="line;strokeWidth=2;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;strokeColor=light-dark(#fa0000, #ededed);" parent="1" vertex="1">
           <mxGeometry x="196" y="1290" width="1215" height="10" as="geometry" />
         </mxCell>
