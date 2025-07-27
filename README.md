@@ -16,3 +16,17 @@ POMO：https://github.com/yd-kwon/POMO
 Omni-POMO：https://github.com/yd-kwon/POMO
 Sym-POMO：https://github.com/alstn12088/Sym-NCO
 ELG-POMO：https://github.com/lamda-bbo/ELG
+
+
+# EPR (Elite-Pattern Reinforcement)
+
+This repository provides the implementation of **EPR (Elite-Pattern Reinforcement)** based on various POMO variants.
+
+---
+
+## 🚀 Train EPR-POMO on CVRP or TSP
+
+1. **Install dependencies**  
+   Install `hgyese`, or alternatively install LKH manually:
+   ```bash
+   pip install hgyese
