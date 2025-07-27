@@ -18,3 +18,10 @@ This repository provides the implementation of **EPR (Elite-Pattern Reinforcemen
    Since heuristic methods are used to generate elite solutions, a hgs_costs.pt file will be generated.
    ```bash
    python train.py
+
+## 🚀 Test EPR-POMO on CVRP or TSP
+
+Under the CVRP/TSP folder, use the default settings in config.yml, run
+   ```bash
+   python test_cvrplib.py
+   python test_vrplib.py
