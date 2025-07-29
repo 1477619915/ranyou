@@ -14,7 +14,7 @@ This repository provides the implementation of **EPR (Elite-Pattern Reinforcemen
    This file defines the detailed architectures of the encoder and decoder, as well as how to use them to solve problem instances.
 5. **ultis.py**
    This file mainly includes the following functions:
-   rollout: Executes the model's inference process in the environment, generating complete solutions and their corresponding probabilities, used for training and evaluation. split_solutions_by_rewards: Splits solutions into high-quality and low-quality routes based on their rewards. hgs_solution: Calls the HGS (Hybrid Genetic Search) solver to obtain approximate optimal solutions for the CVRP.
+   rollout: Executes the model's inference process in the environment, generating complete solutions and their corresponding probabilities, used for training and evaluation. split_solutions_by_rewards: Splits solutions into superior and inferior routes based on their rewards. hgs_solution: Calls the HGS (Hybrid Genetic Search) solver to obtain approximate optimal solutions for the CVRP. compute_cost_difference Compute the differences between superior, inferior, and elite solutions, and incorporate them into the loss function.
 
 ## 🚀 Train EPR-POMO on CVRP or TSP
 
