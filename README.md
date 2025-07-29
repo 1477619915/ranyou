@@ -34,7 +34,6 @@ This repository provides the implementation of **EPR (Elite-Pattern Reinforcemen
 ## 🚀 Test EPR-POMO on CVRP or TSP
 
 1. **Under the CVRP/TSP folder, use the default settings in config.yml, run**
-   Since heuristic methods are used to generate elite solutions, a hgs_costs.pt file will be generated.
    ```bash
    python test_cvrplib.py
    python test_vrplib.py
