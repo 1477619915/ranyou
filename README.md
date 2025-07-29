@@ -4,7 +4,17 @@ This repository provides the implementation of **EPR (Elite-Pattern Reinforcemen
 
 ---
 ## 🚀 Descriptions of the roles and purposes of individual files in the project
-1. ****  
+1. **CVRPEnv.py or TSPEnv.py**
+   This file defines the CVRPEnv or TSPEnv class, which simulates the environment for solving the CVRP or TSP using reinforcement learning. It handles loading problem instances, maintaining state transitions, computing rewards, and providing features for policy learning.
+2. **CVRPModel.py or TSPModel.py**
+   This file defines a neural network model for solving the CVRP or TSP using attention-based encoder-decoder architectures,which uses a learned decoder.
+3. **generate_data.py**
+   This file is used to generate, save, and load datasets with different instance distributions (uniform, clustered, or mixed). It supports both synthetic data generation and loading from preprocessed `.pkl` files, enabling flexible dataset creation for validation and testing. 
+4. **models.py**
+   This file defines the detailed architectures of the encoder and decoder, as well as how to use them to solve problem instances.
+5. **ultis.py**
+   This file mainly includes the following functions:
+   rollout: Executes the model's inference process in the environment, generating complete solutions and their corresponding probabilities, used for training and evaluation. split_solutions_by_rewards: Splits solutions into high-quality and low-quality routes based on their rewards. hgs_solution: Calls the HGS (Hybrid Genetic Search) solver to obtain approximate optimal solutions for the CVRP.
 
 ## 🚀 Train EPR-POMO on CVRP or TSP
 
