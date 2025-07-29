@@ -3,6 +3,8 @@
 This repository provides the implementation of **EPR (Elite-Pattern Reinforcement)** based on various POMO variants.
 
 ---
+## 🚀 Descriptions of the roles and purposes of individual files in the project
+1. ****  
 
 ## 🚀 Train EPR-POMO on CVRP or TSP
 
