@@ -3,7 +3,7 @@
 This repository provides the implementation of **EPR (Elite-Pattern Reinforcement)** based on various POMO variants.
 
 ---
-## 🚀 Descriptions of the roles and purposes of individual files in the project
+## Descriptions of the roles and purposes of individual files in the project
 1. **CVRPEnv.py or TSPEnv.py**
    This file defines the CVRPEnv or TSPEnv class, which simulates the environment for solving the CVRP or TSP using reinforcement learning. It handles loading problem instances, maintaining state transitions, computing rewards, and providing features for policy learning.
 2. **CVRPModel.py or TSPModel.py**
@@ -16,7 +16,10 @@ This repository provides the implementation of **EPR (Elite-Pattern Reinforcemen
    This file mainly includes the following functions:
    rollout: Executes the model's inference process in the environment, generating complete solutions and their corresponding probabilities, used for training and evaluation. split_solutions_by_rewards: Splits solutions into superior and inferior routes based on their rewards. hgs_solution: Calls the HGS (Hybrid Genetic Search) solver to obtain approximate optimal solutions for the CVRP. compute_cost_difference Compute the differences between superior, inferior, and elite solutions, and incorporate them into the loss function.
 
-## 🚀 Train EPR-POMO on CVRP or TSP
+## Descriptions of the dataset
+For evaluation, we adopt the challenging TSPLIB and CVRPLIB benchmarks, specifically the Set X and Set XXL instances. The problem instances are categorized by scale as follows: small (N ≤ 200), large (200 < N ≤ 1000), and very large (N ≥ 3000). 
+
+## Train EPR-POMO on CVRP or TSP
 
 1. **Install dependencies**  
    Install `hgyese`, or `lkh`:
@@ -31,15 +34,16 @@ This repository provides the implementation of **EPR (Elite-Pattern Reinforcemen
    ```bash
    python train.py
 
-## 🚀 Test EPR-POMO on CVRP or TSP
+## Test EPR-POMO on CVRP or TSP
 
 1. **Under the CVRP/TSP folder, use the default settings in config.yml, run**
+   Since heuristic methods are used to generate elite solutions, a hgs_costs.pt file will be generated.
    ```bash
    python test_cvrplib.py
    python test_vrplib.py
    
-## 🚀 Test EPR on POMO、Omni-POMO、Sym-POMO、ELG-POMO
-1. **We provide EPR implementations based on various POMO variants. Since the data files are large, you will need to download them yourself from their official repositories. The links are provided below:**
+## Test EPR on POMO、Omni-POMO、Sym-POMO、ELG-POMO
+1. **We provide EPR implementations based on various POMO variants in the EPR folder. However, due to space limitations, only the core code is included. Additional configuration files and datasets can be accessed through the link below. The links are provided below:**
 POMO：https://github.com/yd-kwon/POMO
 Omni-POMO：https://github.com/yd-kwon/POMO
 Sym-POMO：https://github.com/alstn12088/Sym-NCO
